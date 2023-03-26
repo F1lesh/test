@@ -10,14 +10,7 @@ function randint(min, max) {
 } 
  
 
-let cookie = false
-let cookies = document.cookie.split('; ')
-for (let i = 0, i < cookies.length; i += 1) {
-    if (cookies[i].split('=')[0] == 'numbes_high_score') {
-        cookie = cookies[i].split('=')[i]
-        break
-    }
-}
+
 
 
 if (cookie) {
@@ -26,7 +19,11 @@ if (cookie) {
 }
 
 
-
+    gg 
+    
+    
+    
+    
 let signs = ['+', '-', '*', '/']
 function getRandomSign() {
     return signs[randint(0, 3)]
